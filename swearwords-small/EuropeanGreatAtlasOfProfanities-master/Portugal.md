@@ -1,6 +1,4 @@
 ## Portugal
-Insults in Portugal are all about the tone of your voice. European Portuguese really lends itself well to sarcasm, spite, disdain and contempt/scorn. Insults hurt more when you're having fun with them and with how fulfilled you seem when speaking them. So you can add ", caralho" or ", foda-se" at the end of any insult just to reinforce those beautiful feelings. Growl those words between your teeth like a rabid junkie.
-
 - Merda: Shit
 - Cona: Cunt
 - Paneleiro / Bicha / Viado: Faggot
