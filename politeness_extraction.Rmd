@@ -1,0 +1,43 @@
+---
+title: "politeness"
+output: html_document
+date: "2023-12-21"
+---
+
+```{r setup, include=FALSE}
+install.packages("politeness")
+library(politeness)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+# Read in the cleaned data from a CSV file
+data <- read.csv("data/cleaned_data.csv")
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+# Apply the politeness package to the data
+data <- politeness(data)
+data
+```
+
+```{r}
+# Features to use as a metric are 'Apology', 'bare command', 'gratitude', 'informal title', 'please', 'swearing'
+df_politeness_count <- politeness(data$post, metric="count")
+```
+
+
+```{r}
+write.csv(df_politeness_count, 'data/politeness_features.csv')
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
