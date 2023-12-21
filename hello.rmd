@@ -1,0 +1,4 @@
+import("politeness")
+
+data <- read.csv("data/cleaned_data.csv")
+print(data)
