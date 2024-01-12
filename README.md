@@ -58,6 +58,7 @@ The libraries and its versions that are required in Python:
 - statsmodels == 0.14.1
 - seaborn == 0.13.0
 - wordcloud == 1.9.3
+- xgboost
 
 The libraries and its versions that are required in R:
 - politeness == 0.9.3
@@ -65,13 +66,11 @@ The libraries and its versions that are required in R:
 ## Resources required
 The GPU used is Intel (R) UHD Graphics 630. 
 The CPU used is Intel(R) Core(TM) i7-9750H CPU.
+
 Running the following files took:
-- swearwords.ipynb: MIRTHE!!!
-- data_cleaning.ipynb: 
-- data_exploration.ipynb:
-
-
-An estimation of 50 hours is spent on this project coding with the GPU settings listed above. This results according to https://mlco2.github.io/impact/#compute in a CO2 emmision of: MIJ LUKT T NIET OM DE HARDWARE VAN TUE LAPTOP TE VINDEN
+- swearwords.ipynb: 12 min
+- data_cleaning.ipynb: 57 min
+- data_exploration.ipynb: 45 min
 
 
 ## Experimental manipulation
